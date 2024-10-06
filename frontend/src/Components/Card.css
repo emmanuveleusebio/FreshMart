@@ -1,0 +1,61 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.generateCard{
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.card{
+
+}
+
+.title{
+    height: 270px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding-bottom: 30px;
+}
+
+.productListings{
+    display: flex;
+
+}
+
+
+.title p{
+    background: white;
+    padding: 10px 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.slide-animation {
+    display: flex;
+    gap: 20px;
+    animation: infiniteScroll 15s linear infinite; /* Adjust the duration (20s) for speed */
+}
+
+.card-container:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
+/* Keyframes for sliding animation */
+@keyframes infiniteScroll {
+    0% {
+        transform: translateX(0); /* Start position */
+    }
+    100% {
+        transform: translateX(-50%); /* Move by 50% of the total width */
+    }
+}

@@ -1,0 +1,29 @@
+
+.listing{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.products{
+    height: 270px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding-bottom: 30px;
+}
+
+.listHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.listHead ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}

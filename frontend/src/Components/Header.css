@@ -1,0 +1,43 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navbar ul li:hover{
+    color: #7fad39;
+}
+
+.headerEnd{
+    display: flex;
+    gap: 30px;
+}
+
+.carts{
+    display: flex;
+    gap: 15px;
+}
+
+.price{
+    font-size: 14px;
+}
+
+.price span{
+    font-size: 14px;
+    font-weight: 700;
+}
