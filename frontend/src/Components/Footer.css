@@ -1,0 +1,64 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.footer img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.footer h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer p{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe{
+    border: 1px solid rgb(220, 215, 215);
+    background: white;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.subscribe input{
+    border: none;
+    width: 70%;
+}
+
+.subscribe button{
+    border: none;
+    background: #7fad39;
+    color: white;
+    padding: 15px 40px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footerLinks i{
+    padding: 15px 17px;
+    background: white;
+    border-radius: 50%;
+}
+
+.footerLinks{
+    display: flex;
+    gap: 20px;
+}
+
+.footerLinks i:hover{
+    background: #7fad39;
+    color: white;
+}

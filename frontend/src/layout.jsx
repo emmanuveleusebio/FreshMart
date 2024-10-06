@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import HomePage from "./Components/Home";
 import Listing from "./Components/Listing";
@@ -17,6 +18,11 @@ export default function Layout() {
         <HomePage />
         <Slide />
         <Listing />
+      </div>
+      <div className="coloredComponent">
+       <div className="container">
+       <Footer />
+       </div>
       </div>
     </div>
   );
